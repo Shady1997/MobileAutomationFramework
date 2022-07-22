@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test thread-count="5" name="Simple Mobile Automation End2End">
 		<classes>
-			<class name="test_cases.E2E_Secnario" />
+			<class name="test_cases.CheckMainOperations" />
 		</classes>
 	</test>
 </suite>

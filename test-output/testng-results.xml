@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-22T16:52:35 EET" name="Suite" finished-at="2022-07-22T16:53:42 EET" duration-ms="66985">
+    <groups>
+      <group name="smoke">
+        <method signature="CheckMainOperations.checkDivisionOperation()[pri:4, instance:test_cases.CheckMainOperations@73e9cf30]" name="checkDivisionOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkModulasOperation()[pri:5, instance:test_cases.CheckMainOperations@73e9cf30]" name="checkModulasOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkMultiblicationOperation()[pri:3, instance:test_cases.CheckMainOperations@73e9cf30]" name="checkMultiblicationOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkSubtractionOperation()[pri:2, instance:test_cases.CheckMainOperations@73e9cf30]" name="checkSubtractionOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkSummationOperation()[pri:1, instance:test_cases.CheckMainOperations@73e9cf30]" name="checkSummationOperation" class="test_cases.CheckMainOperations"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-07-22T16:52:35 EET" name="Simple Mobile Automation End2End" finished-at="2022-07-22T16:53:42 EET" duration-ms="66985">
+      <class name="test_cases.CheckMainOperations">
+        <test-method is-config="true" signature="prepare()[pri:0, instance:test_cases.CheckMainOperations@73e9cf30]" started-at="2022-07-22T16:52:35 EET" name="prepare" finished-at="2022-07-22T16:53:03 EET" duration-ms="28346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method signature="checkSummationOperation()[pri:1, instance:test_cases.CheckMainOperations@73e9cf30]" started-at="2022-07-22T16:53:03 EET" name="checkSummationOperation" description="checkSummationOperation on Calculator" finished-at="2022-07-22T16:53:18 EET" duration-ms="14833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSummationOperation -->
+        <test-method signature="checkSubtractionOperation()[pri:2, instance:test_cases.CheckMainOperations@73e9cf30]" started-at="2022-07-22T16:53:18 EET" name="checkSubtractionOperation" description="checkSubtractionOperation on Calculator" finished-at="2022-07-22T16:53:24 EET" duration-ms="6013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubtractionOperation -->
+        <test-method signature="checkMultiblicationOperation()[pri:3, instance:test_cases.CheckMainOperations@73e9cf30]" started-at="2022-07-22T16:53:24 EET" name="checkMultiblicationOperation" description="checkMultiblicationOperation on Calculator" finished-at="2022-07-22T16:53:30 EET" duration-ms="5999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMultiblicationOperation -->
+        <test-method signature="checkDivisionOperation()[pri:4, instance:test_cases.CheckMainOperations@73e9cf30]" started-at="2022-07-22T16:53:30 EET" name="checkDivisionOperation" description="checkDivisionOperation on Calculator" finished-at="2022-07-22T16:53:37 EET" duration-ms="6503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDivisionOperation -->
+        <test-method signature="checkModulasOperation()[pri:5, instance:test_cases.CheckMainOperations@73e9cf30]" started-at="2022-07-22T16:53:37 EET" name="checkModulasOperation" description="checkModulasOperation on Calculator" finished-at="2022-07-22T16:53:41 EET" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkModulasOperation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test_cases.CheckMainOperations@73e9cf30]" started-at="2022-07-22T16:53:41 EET" name="TearDown" finished-at="2022-07-22T16:53:42 EET" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test_cases.CheckMainOperations -->
+    </test> <!-- Simple Mobile Automation End2End -->
+  </suite> <!-- Suite -->
+</testng-results>

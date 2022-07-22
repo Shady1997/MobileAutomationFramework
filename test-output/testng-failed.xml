@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Simple Mobile Automation End2End(failed)">
+    <classes>
+      <class name="test_cases.CheckMainOperations">
+        <methods>
+          <include name="checkSubtractionOperation"/>
+          <include name="checkSummationOperation"/>
+          <include name="TearDown"/>
+          <include name="prepare"/>
+          <include name="checkModulasOperation"/>
+          <include name="checkMultiblicationOperation"/>
+          <include name="checkDivisionOperation"/>
+        </methods>
+      </class> <!-- test_cases.CheckMainOperations -->
+    </classes>
+  </test> <!-- Simple Mobile Automation End2End(failed) -->
+</suite> <!-- Failed suite [Suite] -->

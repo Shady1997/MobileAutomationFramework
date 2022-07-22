@@ -5,20 +5,20 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
-import main.ClassProperties;
 
-public class Capabilities extends ClassProperties {
+public class Capabilities {
 
 	public static AndroidDriver<AndroidElement> baseCapabilities(String appNAme) throws IOException {
 		// TODO Access properties file to read general properties
 		FileInputStream readProperty = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\properties\\generalProperties.properties");
+				System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\generalProperties.properties");
 		Properties prop = new Properties();
 		prop.load(readProperty);
 
@@ -37,10 +37,11 @@ public class Capabilities extends ClassProperties {
 //		desiredCapabilities.setCapability("noReset", true);
 //		desiredCapabilities.setCapability("fullReset", false);
 
-		driver = new AndroidDriver<AndroidElement>(new URL(prop.getProperty("DeviceURL")), desiredCapabilities);
+		AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL(prop.getProperty("DeviceURL")),
+				desiredCapabilities);
 
 //		driver.resetApp();
-//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		return driver;
 	}
