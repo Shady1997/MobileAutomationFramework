@@ -126,15 +126,6 @@ public class PageBase {
 	 * TODO Auto-generated catch block e.printStackTrace(); }
 	 */
 
-	public static void main(String[] args) {
-		try {
-			changeKeyBoard();
-		} catch (AWTException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-
 	// Scroll to view element in Android
 	public static void scrollToViewAndroidElement(AndroidDriver<AndroidElement> driver, String text) {
 		driver.findElementByAndroidUIAutomator(
